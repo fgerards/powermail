@@ -289,4 +289,26 @@ class ReceiverMailReceiverPropertiesService
         }
         return $array;
     }
+    
+    /**
+     * get settings
+    */
+    
+    public function getSettings() {
+     return this->settings;   
+    }
+    
+    /**
+     * get configuration
+    */
+    public function getConfiguration() {
+      return $this->configuration;   
+    }
+    
+    /**
+     * get mail object
+    */
+    public function getMail() {
+     return $this->mail;   
+    }
 }
